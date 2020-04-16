@@ -72,7 +72,7 @@ try:
 |        / \\
 |""")
 
-    if errors >= 3:
+    if errors >= 7:
         print("you lost")
     else:
         print("you won with " + str(errors) + " errors")
