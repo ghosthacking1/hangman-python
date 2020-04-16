@@ -1,6 +1,8 @@
 import random
 import os
 import math
+import time
+
 print("made by:")
 print(""" ______  _______ _______ _     _      _______ _     _  _____  _______ _     _ _______ _______
  |     | |______ |______ |____/       |______ |_____| |     | |       |_____| |_____|    |  
@@ -74,6 +76,8 @@ try:
 
     if errors >= 7:
         print("you lost")
+        print("the word was: " + line)
+        time.sleep(2)
     else:
         print("you won with " + str(errors) + " errors")
 except:
